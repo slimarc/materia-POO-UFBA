@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\zlkad\OneDrive\Área de Trabalho\POO - UFBA\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2699479887.index
+1323870819.index
