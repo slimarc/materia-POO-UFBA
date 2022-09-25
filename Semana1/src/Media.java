@@ -2,14 +2,7 @@ import java.util.Scanner;
 
 public class Media {
 	public static void main(String[] args) {
-		/*
-		float numero1, numero2;
-		
-		numero1 = Float.parseFloat(args[0]);
-		numero2 = Float.parseFloat(args[1]);
-		float media = (numero1+numero2)/2;
-		System.out.println("Media = "+String.valueOf(media));
-		*/
+
 		
 		Scanner teclado = new Scanner(System.in);
 		

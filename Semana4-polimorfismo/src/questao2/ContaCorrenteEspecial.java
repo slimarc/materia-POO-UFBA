@@ -18,6 +18,4 @@ public class ContaCorrenteEspecial extends ContaCorrente {
 		}
 		return super.saldo;
 	}	
-	
-
 }
