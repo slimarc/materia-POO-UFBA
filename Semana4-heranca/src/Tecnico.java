@@ -6,6 +6,8 @@ public class Tecnico extends Funcionario{
 		super(codigo, nome, salario, dataContratacao);
 		this.anos = anos;
 	}
+	public Tecnico() {
+	}
 	
 	public int getAnos() {
 		return anos;

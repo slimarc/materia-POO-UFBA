@@ -6,7 +6,6 @@ class Funcionario {
 	private String dataContratacao;
 	
 	public Funcionario() {
-		
 	}
 	
 	public Funcionario(int codigo, String nome, double salario, String dataContratacao) {

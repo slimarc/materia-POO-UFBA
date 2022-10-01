@@ -1,7 +1,18 @@
+import java.util.Scanner;
 
 public class TestaMedico {
 	public static void main(String[] args) {
-		Medico medico =  new Medico(1248, "Ricardo", 27.587, "16/08/2013", 12, "Otorrinolaringologista", 4574);
+		Scanner teclado = new Scanner(System.in);
+		Medico medico =  new Medico();
+		
+		System.out.println("========FORMULÁRIO========");
+		System.out.println("\nInsira dos dados do funcionário: ");
+		
+		
+		medico.getCodigo();
+		
+		
+		
 		
 		System.out.println("============DADOS FUNCIONÁRIO================");
 		System.out.println("Cod func: " + medico.getCodigo() + "\nNome func: " + medico.getNome()

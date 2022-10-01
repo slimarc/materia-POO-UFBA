@@ -9,6 +9,9 @@ public class Medico extends Tecnico{
 		this.crm = crm;
 	}
 	
+	public Medico() {
+	}
+
 	public String getEspecialidade() {
 		return especialidade;
 	}
@@ -21,8 +24,6 @@ public class Medico extends Tecnico{
 	public void setCrm(int crm) {
 		this.crm = crm;
 	}
-	
-	
 	
 	
 	
