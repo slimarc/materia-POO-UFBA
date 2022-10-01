@@ -1,16 +1,15 @@
-import java.sql.Date;
 
 class Funcionario {
 	private int codigo;
 	private String nome;
 	private double salario;
-	private Date dataContratacao;
+	private String dataContratacao;
 	
 	public Funcionario() {
 		
 	}
 	
-	public Funcionario(int codigo, String nome, double salario, Date dataContratacao) {
+	public Funcionario(int codigo, String nome, double salario, String dataContratacao) {
 		super();
 		this.codigo = codigo;
 		this.nome = nome;
@@ -36,10 +35,10 @@ class Funcionario {
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
-	public Date getDataContratacao() {
+	public String getDataContratacao() {
 		return dataContratacao;
 	}
-	public void setDataContratacao(Date dataContratacao) {
+	public void setDataContratacao(String dataContratacao) {
 		this.dataContratacao = dataContratacao;
 	}
 	
