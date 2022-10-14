@@ -5,6 +5,10 @@ public class ContaCorrente {
 	protected double saldo;
 	private double taxaSaque = 0.05;
 	
+	public ContaCorrente() {
+		
+	}
+	
 	public ContaCorrente(int numConta, double saldo) {
 		this.numConta = numConta;
 		this.saldo = saldo;
@@ -42,6 +46,14 @@ public class ContaCorrente {
 	public double getNovoSaldo() {
 		System.out.println("Saldo da conta: "+ this.saldo);
 		return saldo;
+	}
+	
+	public void setNumConta(int numConta) {
+		this.numConta = numConta;
+	}
+	
+	public int getNumConta() {
+		return numConta;
 	}
 	
 	
